@@ -1,0 +1,158 @@
+.header{
+   padding: 30px 0px;
+}
+.header ul  {
+    display: flex;
+    gap: 35px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+.header nav li a {
+    color: #0D0E43;
+   
+}
+ .search form{
+    display: flex;
+    border:  2px solid #ddd ;
+    flex-wrap: wrap;
+ }
+ .search input {
+    padding: 8px 40px;
+    border: 0;
+ }
+ .search button {   
+    border: 0;
+    padding : 8px ;
+    background-color: var(--main-color);
+ }
+ .header .bars{
+   display: none;
+ }
+ 
+ @media  screen and (min-width:0) and (max-width:1200px) {
+   .header nav {
+      display: none;
+   }
+   .search form{
+      display: none;
+   }
+   .header .bars{
+      display: block;
+   }
+ }
+ /*end header*/
+
+
+ /*start main content*/
+ .hero{
+   padding: 30px 0;
+   background-color: #EEEFFB;
+ }
+ .hero .hero-content{
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: column;
+   gap: 26px;
+   flex-grow: 1;
+   max-width: 65%;
+ }
+ .hero .title {
+   font-size: 50px;
+
+ }
+ .hero .shop-button {
+   background-color: red;
+   color: #ddd;
+   padding: 16px  40px;
+   border-radius: 3px ;
+ }
+ .hero .subtitile{
+   color: red;
+   font-size: 18px;
+   font-weight: 700;
+   
+ }
+ .hero .hero-image {
+   width: 30%;
+ }
+ .hero-image images {
+   width: 100%;
+
+ }
+
+
+ /*end main content */
+
+
+ /*start footer*/
+ .footer {
+    background-color: #EEEFFB;
+    padding: 30px;
+   height: 479px;
+ }
+ 
+ .footer-right-side {
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   flex-grow: 1;
+   gap: 30px;
+
+ }
+/* .footer-item {
+   display: flex;
+   flex-wrap: wrap;
+   width: calc((100% - 30px) / 3);
+   min-width: 200px;
+   flex-direction: column;
+   gap: 25px;
+ }*/
+ .footer-right-side a {
+    color: #8A8FB9;
+    gap: 10px;
+   
+ }
+ .footer-right-side nav {
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: column;
+   gap: 20px;
+
+ }
+ @media  screen and (max-width: 992px) {
+   .container {
+      width: calc(100% - 100px );
+   }  
+   
+ }
+ .footer-left-side {
+   width: 400px;
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   gap: 30px;
+   align-items: flex-start;
+ }
+ .email form{
+   display: flex;
+   flex-wrap: wrap;
+   border:  2px solid #ddd ;
+}
+.email input {
+   padding: 8px 40px;
+   border: 0;
+}
+.email input {
+   padding: 8px 40px;
+   border: 0;
+}
+.email button {   
+   border: 0;
+   padding : 8px ;
+   background-color: var(--main-color);
+}
+
+ 
+ /*end footer*/
+ 

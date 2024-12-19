@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --main-color:#FB2E86;
+    --secondary-color: #666;
+    --tertiary-color: #999;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width:calc(100% - 300px) ;
+    margin: auto;
+    padding: 20px;
+   
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+
+
+
